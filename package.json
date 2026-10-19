@@ -1,0 +1,32 @@
+{
+    "name":  "auto-vexa-frontend",
+    "private":  true,
+    "version":  "1.0.0",
+    "type":  "module",
+    "scripts":  {
+                    "preview":  "vite preview",
+                    "build":  "vite build --mode customer",
+                    "dev":  "vite"
+                },
+    "dependencies":  {
+                         "@reduxjs/toolkit":  "^2.13.0",
+                         "@vitejs/plugin-react":  "^4.3.4",
+                         "axios":  "^1.7.9",
+                         "lenis":  "^1.1.20",
+                         "lucide-react":  "^0.468.0",
+                         "react":  "^18.3.1",
+                         "react-dom":  "^18.3.1",
+                         "react-hook-form":  "^7.90.0",
+                         "react-redux":  "^9.3.0",
+                         "react-router-dom":  "^6.28.1",
+                         "recharts":  "^3.10.1",
+                         "three":  "^0.171.0"
+                     },
+    "devDependencies":  {
+                            "autoprefixer":  "^10.6.1",
+                            "postcss":  "^8.5.31",
+                            "tailwindcss":  "^3.4.19",
+                            "vite":  "^6.0.5"
+                        }
+}
+
